@@ -1,8 +1,10 @@
 # Import CSV
-An application that allows CSV files to be imported into a MYSQL database.
-## Key Features
-> [!TIPs]
-> - [x] Is dramatically faster than MySQL Workbench
+An application that allows CSV files to be imported into a MYSQL database. Written in Bootstrap, PHP, JQuery and ajax
+## Why use Import CSV
+- [x] It is dramatically faster than tools such as MySQL Workbench to import data into a MYSQL database
+> [!TIP]
+> Tested in real-world conditions, this tool takes approximately 350 seconds to import 2 million data points into MySQL, which is less than 6 minutes. In comparison, MySQL Workbench takes roughly 2 days.
+- [x] It has a very user-friendly interface. No unnecessary features, just what you need to import your data quickly
 ## Screenshot 1 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
 
