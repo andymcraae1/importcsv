@@ -12,6 +12,4 @@ This project is an imporovement of [CSV import into MySQL with Ajax](https://www
 
 
 > [!IMPORTANT]
-> The index.php file allows for minimal table management. That is, viewing, deleting, and adding data to tables. You will need to add your database and connect the correct tables to the frontend file (). 
-
-The database connection is currently db: `localhost` user: `root` pw: ``. If you choose to put your project online, you will obviously need to change the login details.
+>  You will need to redefine your database and tables in order for the application to work. Currently, it is connected with a dummy database called `my_database`, with host: `localhost` user: `root` pw: `empty`. The table fields must be adapted to your needs under `ajax/import.php`.
