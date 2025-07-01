@@ -1,7 +1,7 @@
 # Import CSV
 A tool for importing CSV files directly into MYSQL
 
-This project is an imporovement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html).
+This project is an improvement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html).
 ## Key improvements
 - [x] Allows you to work (delete, select, add) on multiple tables in a database directly via a graphical interface.
 - [x] Allows you to choose the CSV file delimiter. Previously, only ‘,’ could be chosen.
