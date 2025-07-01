@@ -1,0 +1,76 @@
+.title{
+	margin-top:20px;
+}
+.import_btn{
+	height:60px;
+	width:200px;
+	padding-top:14px;
+	margin-bottom:20px;
+
+}
+.import_case{
+	margin-bottom:20px;
+
+	margin-top:30px;
+}
+.extra_params{
+	width:600px;
+}
+.frame{
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-right:20px;
+	padding-left:20px;
+	border-style: dashed;
+	margin-bottom:20px;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown_extras dropdown_extras content */
+.dropdown_extras {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_extras-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown_extras */
+.dropdown_extras-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown_extras links on hover */
+.dropdown_extras-content a:hover {background-color: #0d6efd}
+
+/* Show the dropdown_extras menu on hover */
+.dropdown_extras:hover .dropdown_extras-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown_extras button when the dropdown_extras content is shown */
+.dropdown_extras:hover .dropbtn {
+  background-color: #0b5ed7;
+}
+.db_style{
+	margin-top:-30px;
+	margin-bottom:20px;
+}
