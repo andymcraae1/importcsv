@@ -3,7 +3,7 @@ A tool for importing CSV files directly into MYSQL
 
 This project is an imporovement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html).
 # Key improvements
-- [x] Allows you to work (delete, select, add) on multiple tables in a database directly via a graphical interface.
+- [x] #738 Allows you to work (delete, select, add) on multiple tables in a database directly via a graphical interface.
 - [x] Allows you to choose the CSV file delimiter. Previously, only ‘,’ could be chosen.
 - [x] Allows large files of up to millions of lines to be imported (tested with a 200 MB file containing 2.5 million lines). The previous project linked to did not allow more than a few thousand lines to be processed.
 - [x] Allows the project to be placed on a web server with a small, simple login system, in which the password and user are entered into a ‘user’ table. With password encryption in (tiger 160.3) format.
