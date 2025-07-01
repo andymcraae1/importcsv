@@ -1,11 +1,16 @@
 # Import CSV
-A tool for importing CSV files directly into MYSQL
+A tool for importing CSV files directly into MYSQL with bootstrap, PHP and ajax
+
 ## Screenshot 1 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
+
 ## Screenshot 2 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_2.PNG)
+
 > [!NOTE]
 > This project is an improvement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html).
+
+
 ## Key improvements
 - [x] Allows you to work (delete, select, add) on multiple tables in a database directly via a graphical interface.
 - [x] Allows you to choose the CSV file delimiter. Previously, only ‘,’ could be chosen.
@@ -17,3 +22,6 @@ A tool for importing CSV files directly into MYSQL
 
 > [!IMPORTANT]
 >  You will need to redefine your database and tables in order for the application to work. Currently, it is connected with a dummy database called `my_database`, with host: `localhost` user: `root` pw: `empty`. The table fields must be adapted to your needs under `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
+> 
+> [!WARNING]
+> Please note the following: If you use this application online, your ISP must be able to use at least 1280M ini_set(“memory_limit”, “1280M”); otherwise large files cannot be loaded.
