@@ -1,6 +1,8 @@
 # Import CSV
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
+An application that allows CSV files to be imported into a MYSQL database.
+## Key Features
+> [!TIP]
+> - [x] Is dramatically faster than MySQL Workbench
 ## Screenshot 1 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
 
