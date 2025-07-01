@@ -1,5 +1,5 @@
 # Import CSV
-`#c5f015 A tool for importing CSV files directly into MYSQL with bootstrap, PHP and ajax`
+`#c5f015` A tool for importing CSV files directly into MYSQL with bootstrap, PHP and ajax
 
 ## Screenshot 1 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
