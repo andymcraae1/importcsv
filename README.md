@@ -1,5 +1,5 @@
 # Import CSV
-`#000000` A tool for importing CSV files directly into MYSQL with bootstrap, PHP and ajax
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 ## Screenshot 1 of the interface
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
