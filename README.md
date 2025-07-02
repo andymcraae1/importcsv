@@ -22,9 +22,24 @@ An application that allows CSV files to be imported into a MYSQL database. Writt
 - [x] Includes a logging system that returns an error visible to the user if something goes wrong during file import.
 - [x] Includes a timer system that allows the user to see how long an import takes. Typically 400 seconds for a 200 MB file.
 - [x] Includes a sample database that can be directly imported to PHPMyAdmin
-
 > [!IMPORTANT]
->  You will need to redefine your database and tables in order for the application to work. Currently, it is connected with a dummy database called `my_database`, with host: `localhost` user: `root` pw: `empty`. The table fields must be adapted to your needs under `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
-
+>  You need to have a working apache environment with at least PHP and MYSQL installed (XAMPP for Ubuntu MAC and Windows or WAMP only for windows). And also have some basic knowledge about PHP, SQL databases and about how to work with php files via localhost folder (Or xampp/htdocs/.. folder).
+>  Then You will need to redefine your database and tables in order for the application to work. Currently, we provide you with a dummy database `sample database/sample_database.sql` which you can import in your MYSQL server to see how it looks like. with host: `localhost` user: `root` pw: `empty`. The table fields must be then adapted to your needs under `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
 > [!WARNING]
 > Please note the following: If you use this application online, your web hoster must be able to use at least 1280M `ini_set("memory_limit", "1280M")`; otherwise large files cannot be loaded.
+
+## Quick Start
+### Works with Ubuntu / Windows / MAC
+### Clone repository
+```
+git clone https://github.com/mmrad1/importcsv
+```
+### Steps to follow
+1. Copy the project on your work environment (e.g. localhost)
+
+2. Import the sample database `sample database/sample_database.sql` via PHPMyadmin. Update the field names to match your dataset. Adapt the host, database name, user and password, to match your credentials in the following files: `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
+3. You will need to adapt the tables you want to modify in the `index.php` file
+4. Enter a user `user_name` (field) and password `password` in the modified format tiger 160,3 in the `users` table. Use `$password = hash('tiger160,3', 'MyPassword');` to retrieve your password and put it in the password field
+5. Then, start apache and head to localhost where the index.php file should be. And start using your application
+> [!WARNING]
+> The application may not work on the first try. This may be mainly due to the necessary adaptation of your database fields and associated tables. It may also be due to the fields that will be imported via import.php. Make sure you match the fields you want to import in this file. Once this is done (it may take around 30 minutes if you know what you are doing), the application should work correctly and you will save a lot of time in the future.
