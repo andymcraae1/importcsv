@@ -39,7 +39,7 @@ git clone https://github.com/mmrad1/importcsv
 
 2. Import the sample database `sample database/sample_database.sql` via PHPMyadmin. Update the field names to match your dataset. Adapt the host, database name, user and password, to match your credentials in the following files: `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
 3. You will need to adapt the tables you want to modify in the `index.php` file
-4. Enter a user `user_name` (field) and password `password` in the modified format tiger 160,3 in the `users` table. Use `$password = hash('tiger160,3', 'MyPassword');` to retrieve your password and put it in the password field
-5. Then, start apache and head to localhost where the index.php file should be. And start using your application
+4. Enter a user `user_name` and password `password` in the modified format tiger 160,3 in the `users` table via PHPMyadmin. Use `$password = hash('tiger160,3', 'MyPassword');` to retrieve your password and put it in the password field
+5. Then, start apache and head to localhost where the index.php file should be. And start using your application.
 > [!WARNING]
 > The application may not work on the first try. This may be mainly due to the necessary adaptation of your database fields and associated tables. It may also be due to the fields that will be imported via import.php. Make sure you match the fields you want to import in this file. Once this is done (it may take around 30 minutes if you know what you are doing), the application should work correctly and you will save a lot of time in the future.
