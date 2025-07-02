@@ -12,7 +12,7 @@ An application that allows CSV files to be imported into a MYSQL database. Writt
 ![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_2.PNG)
 
 > [!NOTE]
-> This project is an improvement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html).
+> This project is an improvement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html). Many thanks to them. However, the project is not very functional for several use cases. This is why this current project exists
 
 ## Key improvements
 - [x] Allows you to work (delete, select, add) on multiple tables in a database directly via a graphical interface.
