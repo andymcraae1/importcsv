@@ -5,11 +5,8 @@ An application that allows CSV files to be imported into a MYSQL database. Writt
 - [x] It has a very user-friendly interface. No unnecessary features, just what you need to import your data quickly
 > [!NOTE]
 > Tested in real-world conditions, this tool takes approx. 350 seconds to import a CSV file with 2 million records into MySQL, which is less than 6 minutes. In comparison, `PHPMyadmin` needs 5 hours and `MySQL Workbench` roughly 3 days.
-## Screenshot 1 of the interface
-![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_1.PNG)
-
-## Screenshot 2 of the interface
-![Screenshot of the interface](https://github.com/andymcraae1/importcsv/blob/main/screenshots/Image_2.PNG)
+## Example video on how to use it
+![Example](https://github.com/andymcraae1/importcsv/blob/main/screenshots/process.gif)
 
 > [!NOTE]
 > This project is an improvement of [CSV import into MySQL with Ajax](https://www.webslesson.info/2019/11/csv-import-using-ajax-progress-bar-in-php.html). Many thanks to them. However, the project is not very functional for several use cases. This is why this current project exists
