@@ -27,4 +27,4 @@ An application that allows CSV files to be imported into a MYSQL database. Writt
 >  You will need to redefine your database and tables in order for the application to work. Currently, it is connected with a dummy database called `my_database`, with host: `localhost` user: `root` pw: `empty`. The table fields must be adapted to your needs under `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
 
 > [!WARNING]
-> Please note the following: If you use this application online, your ISP must be able to use at least 1280M `ini_set("memory_limit", "1280M")`; otherwise large files cannot be loaded.
+> Please note the following: If you use this application online, your web hoster must be able to use at least 1280M `ini_set("memory_limit", "1280M")`; otherwise large files cannot be loaded.
