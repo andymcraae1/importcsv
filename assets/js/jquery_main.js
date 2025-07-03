@@ -54,9 +54,8 @@
 	var total_data = $('#total_data').text();
 	var initial_rows = $('#initial_rows').text();
 	var width = Math.round(((data-initial_rows)/total_data)*100);
-	 /*var duration = parseInt($('#duration').text());	duration +=1;*/
-
 	 if(data.match("Error")){
+		 
 		 $('.output_logs').text(data);
 	 }else{
 		 $('.output_logs').text("No errors");
