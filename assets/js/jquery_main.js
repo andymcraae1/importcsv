@@ -33,6 +33,7 @@
 	}
    })
   });
+	 
   function start_import(){
    $('#process').css('display', 'block');
    $.ajax({
