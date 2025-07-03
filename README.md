@@ -26,6 +26,7 @@ An application that allows CSV files to be imported into a MYSQL database. Writt
 > [!IMPORTANT]
 >  You need to have a working apache environment with at least PHP and MYSQL installed (XAMPP for Ubuntu MAC and Windows or WAMP only for windows). And also have some basic knowledge about PHP, SQL databases and about how to work with php files via localhost folder (Or xampp/htdocs/.. folder).
 >  Then You will need to redefine your database and tables in order for the application to work. Currently, we provide you with a dummy database `sample database/sample_database.sql` which you can import in your MYSQL server to see how it looks like. with host: `localhost` user: `root` pw: `empty`. The table fields must be then adapted to your needs under `ajax/upload.php` `ajax/import.php` `ajax/process.php` `connect.php` and `db_pdo_connection.php`.
+
 > [!WARNING]
 > Please note the following: If you use this application online, your web hoster must be able to use at least 1280M `ini_set("memory_limit", "1280M")`; otherwise large files cannot be loaded.
 
