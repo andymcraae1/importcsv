@@ -77,19 +77,16 @@
      }
     }
    })
-
   }
    function set_realtime_timer(){
-   
-	var total_data = $('#total_data').text();
-	var process_data = $('#process_data').text();
+	var width = $('.progress-bar')[0].style.width;
+	width = parseInt(width.replace("%",''));	
+
 	var duration = parseInt($('#duration').text());
 	duration +=1;
 	$('#duration').text(duration);
-
-     if(process_data >= total_data){
+     if(width >= 100){
 		clearInterval(clear_timer_2);
-     
 	 }
   }
  });
